@@ -1,0 +1,49 @@
+body{
+    background-color: #EEF5FF;
+}
+section{
+    padding: 60px 0;
+}
+
+.navbar{
+    background-color: #AAD7D9;
+}
+
+.footer{
+    background-color: #AAD7D9;
+}
+
+.Pricing{
+    margin-top: 4px;
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.price{
+    font-weight: 500;
+}
+
+.glance{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.reviews con{
+    text-align: center;
+}
+
+.reviews h1,p{
+    margin-bottom: 1px;
+}
+.input-group{
+    margin-bottom: 4px;
+}
+
+.textArea{
+    margin-top: 5px;
+    margin-bottom: 4px;
+}

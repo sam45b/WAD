@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #495057;
+}
+
+.container {
+    max-width: 400px; /* Adjusted size */
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border-color: #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: crimson;
+    box-shadow: none;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: crimson;
+    border-color: crimson;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+a {
+    color: v;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 5px;
+}
